@@ -26,7 +26,7 @@ This project demonstrates a simple user authentication and profile management fl
 
 The home page is the first screen users see. It provides navigation to either login or create a new account.
 
-![Home Page](/screenshots/home.png)
+![Home Page](./screenshots/home.png)
 
 ---
 
@@ -37,7 +37,7 @@ Users can create an account by filling out a form with their name, email, passwo
 - Once the form is submitted, the user data (including profile pic as a base64 string) is stored in `localStorage` under the key `loggedInUser`.
 - After successful account creation, users are redirected to the login page.
 
-![Create Account](/screenshots/signup.png)
+![Create Account](./screenshots/signup.png)
 
 ---
 
@@ -48,7 +48,7 @@ Users can log in with their registered email and password.
 - If credentials match the stored user in `localStorage`, login is successful.
 - The user is redirected to the user dashboard after login.
 
-![Login](/screenshots/login.png)
+![Login](./screenshots/login.png)
 
 ---
 
@@ -63,7 +63,7 @@ After logging in, the user lands on the dashboard which displays their account i
 
 Users can also update their profile picture here.
 
-![User Dashboard](/screenshots/user-dashboard.png)
+![User Dashboard](./screenshots/user-dashboard.png)
 
 ---
 
@@ -74,7 +74,7 @@ Users can upload a new profile picture from their device.
 - The selected image is converted to a base64 string and stored inside the user object in `localStorage`.
 - The dashboard automatically updates to show the new profile picture.
 
-![Profile Picture Upload](/screenshots/profile-pic-upload.png)
+![Profile Picture Upload](./screenshots/profile-pic-upload.png)
 
 ---
 
@@ -102,11 +102,11 @@ Users can upload a new profile picture from their device.
 
 | Home Page          | Create Account      | Login              |
 |--------------------|---------------------|--------------------|
-| ![Home](/screenshots/home.png) | ![Create](/screenshots/signup.png) | ![Login](/screenshots/login.png) |
+| ![Home](./screenshots/home.png) | ![Create](./screenshots/signup.png) | ![Login](./screenshots/login.png) |
 
 | User Dashboard     | Profile Pic Upload  |
 |--------------------|--------------------|
-| ![Dashboard](/screenshots/user-dashboard.png) | ![Upload](/screenshots/profile-pic-upload.png) |
+| ![Dashboard](./screenshots/user-dashboard.png) | ![Upload](./screenshots/profile-pic-upload.png) |
 
 ---
 
